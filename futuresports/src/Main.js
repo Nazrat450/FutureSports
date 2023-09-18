@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';  
 import ImageCarousel from './Carousel.js';
+import Search from './Search.js';
 
 
 const HomeSection = () => {
@@ -9,8 +10,7 @@ const HomeSection = () => {
       <div className="content">
         <h2>About Us</h2>
         <div className="search-container">
-          <input type="text" id="search-input" placeholder="Search..." />
-          <button id="search-button">Search</button>
+          <Search />
         </div>
         <div id="search-results">
           {/* Search results */}
