@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';  // Assuming you have a separate CSS file
+import './App.css';  
+import ImageCarousel from './Carousel.js';
+
 
 const HomeSection = () => {
   return (
@@ -26,13 +28,13 @@ const HomeSection = () => {
       
     </div>}
         <div className="carousel-container">
-          <div className="carousel">
-            <img src="Images/image1.jpg" alt="Image 1" />
-            <img src="Images/image2.jpg" alt="Image 2" />
-            <img src="Images/image3.jpg" alt="Image 3" />
+        <div className="carousel">
+            <ImageCarousel />
+           
+           
           </div>
-          <button className="prev-btn">&#10094;</button>
-          <button className="next-btn">&#10095;</button>
+          
+          
         </div>
         {/* Add React-based carousel functionality */}
       </div>
