@@ -388,3 +388,32 @@ iframe {
 .scrollToTopButton:hover {
   opacity: 1;
 }
+
+.weather-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f1f1f1;
+}
+
+.weather-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.weather-temp {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.loading-text {
+  font-size: 1em;
+  color: #777;
+}
