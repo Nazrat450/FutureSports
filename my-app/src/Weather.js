@@ -28,7 +28,7 @@ const WeatherWidget = () => {
   }, []);
 
   return (
-    <div className="weather-widget">
+    <div className="weather-widget" data-testid="weather-widget">
       {weatherData ? (
         <div>
           <h1 className="weather-title">{weatherData.name}</h1>

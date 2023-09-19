@@ -11,7 +11,7 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <button className="scrollToTopButton" onClick={scrollToTop}>
+    <button className="scrollToTopButton" onClick={scrollToTop} data-testid="scroll-button">
       Scroll to Top
     </button>
   );

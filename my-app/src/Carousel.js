@@ -12,11 +12,11 @@ function ImageCarousel() {
   const goToNext = () => setCurrent((current + 1) % images.length);
 
   return (
-    <div className="carousel-container">
-      <img src={images[current]} alt="" className="carousel-image" />
-      <button onClick={goToPrev} className="prev-button">Prev</button>
-      <button onClick={goToNext} className="next-button">Next</button>
-    </div>
+    <div className="carousel-container" data-testid="carousel-container">
+    <img src={images[current]} alt="" className="carousel-image" data-testid="carousel-image"/>
+    <button onClick={goToPrev} className="prev-button" data-testid="prev-button">Prev</button>
+    <button onClick={goToNext} className="next-button" data-testid="next-button">Next</button>
+  </div>
   );
 }
 export default ImageCarousel;

@@ -63,7 +63,7 @@ const Schedule = () => {
             </tbody>
           </table>
         </div>
-        {/* If you need to run some JavaScript, you can include it within the component or import it */}
+       
       </div>
     </section>
   );

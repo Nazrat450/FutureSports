@@ -33,12 +33,12 @@ const NewsContent = () => {
         <br />
         "We're building a stadium that will be the envy of clubs around the world," said Lakeside's chairman, John Harris.<br />
         <br />
-        </p>
+        
 <h3>Transfer Rumors: Tom Davis to Join Hillview Rovers?</h3>
 Hillview Rovers are reportedly in advanced talks to sign the much-sought-after midfielder Tom Davis from Eastville Saints. <br />
 Davis, who has scored 12 goals this season, could be a game-changer for Hillview as they aim for the championship.<br />
 <br />
-"The negotiations are confidential, but we're optimistic," said a spokesperson for Hillview Rovers.
+"The negotiations are confidential, but we're optimistic," said a spokesperson for Hillview Rovers. </p>
       <div className="video-container">
         <h1>Highlight 19/04/22</h1>
         <iframe 
