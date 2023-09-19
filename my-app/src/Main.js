@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';  
 import ImageCarousel from './Carousel.js';
 import Search from './Search.js';
-
+import WeatherWidget from "./Weather";
 
 
 const HomeSection = () => {
@@ -10,6 +10,7 @@ const HomeSection = () => {
     <section id="home">
       <div className="content">
         <h2>About Us</h2>
+        <WeatherWidget />
         <div className="search-container">
           <Search />
         </div>

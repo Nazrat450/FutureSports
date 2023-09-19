@@ -401,6 +401,10 @@ iframe {
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #f1f1f1;
+  transition: background 0.5s ease;
+  position: fixed;
+  top: 70px;
+  right: 20px;
 }
 
 .weather-title {
@@ -416,4 +420,7 @@ iframe {
 .loading-text {
   font-size: 1em;
   color: #777;
+}
+.weather-widget:hover {
+  background: linear-gradient(orange, blue);
 }

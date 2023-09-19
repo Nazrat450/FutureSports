@@ -7,7 +7,7 @@ import PlayerSection from './Players';
 import NewsContent from './New';
 import RegistrationForm from './Register';
 import ScrollToTopButton from './ScrollToTop';
-import WeatherWidget from "./Weather";
+
 
 
 
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      <WeatherWidget />
+      
       <ScrollToTopButton />
       <Schedule />
       <div id="PlayerSection">

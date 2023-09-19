@@ -13,6 +13,7 @@ const Header = () => {
     <header>
       <nav>
         <Navigation />
+        
         <button id="loginBtn">Login</button>
         <div id="loginModal" className="modal">
           <div className="modal-content">
