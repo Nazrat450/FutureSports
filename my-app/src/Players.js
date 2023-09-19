@@ -16,7 +16,7 @@ function PlayerSection() {
               
                 HoSchem SoD 'utlh. chunDab vantaH be'qoq. lo' law'Du' paw' teblaw'. ra'wI' 'ovmoH vuD.</p>
                 <UpcomingEvents />
-    </div>        
+    </div>       
     
   );
 }

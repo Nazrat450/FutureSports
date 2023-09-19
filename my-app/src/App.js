@@ -7,14 +7,17 @@ import PlayerSection from './Players';
 import NewsContent from './New';
 import RegistrationForm from './Register';
 import ScrollToTopButton from './ScrollToTop';
-
-
+import ErrorBoundary from './ErrorBoundary';
+{/*import ErrorButton from './ErrorButtonTest'; This is for testing ErrorBoundary*/}
 
 
 
 function App() {
   return (
+    
     <div className="App">
+      <ErrorBoundary>
+      {/*<ErrorButton /> This is for testing ErrorBoundary*/}
       <Header />
       <Main />
       
@@ -31,10 +34,11 @@ function App() {
       </div>
 
       <Footer />
+      </ErrorBoundary>
     </div>
     
   );
-
+  
 }
 
 
