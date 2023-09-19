@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github-pages-app/static/css/main.b561a43c.css",
-    "main.js": "/github-pages-app/static/js/main.b387ed0e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/github-pages-app/static/js/787.28cb0dcd.chunk.js",
-    "static/media/image1.jpg": "/github-pages-app/static/media/image1.5309c0bdd39cbf9d448f.jpg",
-    "static/media/image2.jpg": "/github-pages-app/static/media/image2.9b53cd7d919ab90f3e41.jpg",
-    "static/media/image3.jpg": "/github-pages-app/static/media/image3.57e331b4d884bbf4accd.jpg",
-    "static/media/Logo.png": "/github-pages-app/static/media/Logo.4b5c990ec008fbd4cba7.png",
-    "index.html": "/github-pages-app/index.html",
-    "main.b561a43c.css.map": "/github-pages-app/static/css/main.b561a43c.css.map",
-    "main.b387ed0e.js.map": "/github-pages-app/static/js/main.b387ed0e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/github-pages-app/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/FutureSports/static/css/main.b561a43c.css",
+    "main.js": "/FutureSports/static/js/main.02e7d34b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FutureSports/static/js/787.28cb0dcd.chunk.js",
+    "static/media/image1.jpg": "/FutureSports/static/media/image1.5309c0bdd39cbf9d448f.jpg",
+    "static/media/image2.jpg": "/FutureSports/static/media/image2.9b53cd7d919ab90f3e41.jpg",
+    "static/media/image3.jpg": "/FutureSports/static/media/image3.57e331b4d884bbf4accd.jpg",
+    "static/media/Logo.png": "/FutureSports/static/media/Logo.4b5c990ec008fbd4cba7.png",
+    "index.html": "/FutureSports/index.html",
+    "main.b561a43c.css.map": "/FutureSports/static/css/main.b561a43c.css.map",
+    "main.02e7d34b.js.map": "/FutureSports/static/js/main.02e7d34b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FutureSports/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b561a43c.css",
-    "static/js/main.b387ed0e.js"
+    "static/js/main.02e7d34b.js"
   ]
 }
