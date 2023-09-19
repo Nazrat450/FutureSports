@@ -1,9 +1,9 @@
 import React from 'react';
-import Search from './Search';
+
 const UpcomingEvents = () => {
   return (
     <div>
-      <h1>Upcoming Events</h1>  <Search />
+      <h1>Upcoming Events</h1>  
       <div className="calendar-container">
         <iframe 
           src="https://calendar.google.com/calendar/embed?src=matthewryanhill95%40gmail.com&ctz=Europe%2FLondon" 

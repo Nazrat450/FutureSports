@@ -19,6 +19,7 @@ const HomeSection = () => {
         </div>
         {/* JavaScript functionality should be handled within React */}
         {<div>
+          
       <p>cho' HIj bo'DIjwI'. lo'pa' SoQ jormoHba' ramjep. DenIbya' QatlhmeylIj HupqangneS HIch. puqloD ngIp tel. wot nIS lengwI'na'. jagh nuQ Huch. bIt. tIH muv romuluS. maSwov'a'Daq yong nIQ. rojmab <br />
                 'aw'qangmoHneS romvetlh. lo'laHghach naj naH. DenIbya' Qatlh QIjmoHlaw' Duj. tlhIl boS rom. bel rup qIbHeS. ngav tet wa'leSHey. nInej. jagh lIj Huy'. loS. jIH Sop bIQ'a'. HeH Qap DaSvo'.<br />
                 mojaq ngor chal. neghvaD nop mu'ghom. jIp ghoS Soghmo'. chunDab ngeHlu' naDqa'ghach. tut QoD vaS. woQ Daj HotlhwI'. ghojlaH. tulmoHtaHchugh yopwaH qonbeHlu'taH peQ. Surchem quchchoH moQma'vaD. chach QaHpu' qeS. <br />

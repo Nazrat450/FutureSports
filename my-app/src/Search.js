@@ -1,41 +1,48 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 function Search() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  useEffect(() => {
-    // Remove any existing highlights
-    document.querySelectorAll('.highlight').forEach(span => {
-      const text = span.innerText || span.textContent;
-      span.outerHTML = text;
-    });
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && searchTerm.length >= 3) {
+      e.preventDefault();
+      circleSearchTerm();
+    }
+  };
+
+  const circleSearchTerm = () => {
+    // Remove any existing circles
+    removeCircles();
 
     if (searchTerm === '') return;
 
-    // Highlight new matches
+    // Circle new matches
     document.querySelectorAll('p').forEach(paragraph => {
       const innerHTML = paragraph.innerHTML;
-      const regex = new RegExp(`(${searchTerm})`, 'gi');
-      const newInnerHTML = innerHTML.replace(regex, '<span class="highlight">$1</span>');
+      const regex = new RegExp(`\\b(${searchTerm})\\b`, 'gi');  // Note the word boundaries
+      const newInnerHTML = innerHTML.replace(regex, '<span class="circle">$1</span>');
       paragraph.innerHTML = newInnerHTML;
     });
-  }, [searchTerm]);
+  };
+
+  const removeCircles = () => {
+    document.querySelectorAll('.circle').forEach(span => {
+      const text = span.innerText || span.textContent;
+      span.outerHTML = text;
+    });
+  };
 
   return (
     <div className="App">
-     
       <input
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={e => setSearchTerm(e.target.value)}
+        onKeyPress={handleKeyPress}
+        onBlur={removeCircles}  // Removes circles when input box loses focus
       />
-      <style jsx>{`
-        .highlight {
-          background-color: yellow;
-        }
-      `}</style>
     </div>
   );
 }

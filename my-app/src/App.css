@@ -445,3 +445,7 @@ iframe {
 .error-boundary-container p {
   font-size: 16px;
 }
+.circle {
+  border: 2px solid red;
+  border-radius: 50%;
+}
