@@ -3,12 +3,13 @@ import React from 'react';
 
 const Schedule = () => {
   return (
-    <section id="schedule">
+    
+    <section id="schedule"> 
       <div className="content">
         <h2>2023 Q4 Match Schedule</h2>
         <div className="table-container">
           <table>
-            <thead>
+            <thead> 
               <tr>
                 <th>Date</th>
                 <th>Time</th>

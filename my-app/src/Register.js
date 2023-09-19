@@ -26,7 +26,7 @@ const RegistrationForm = () => {
 
   return (
     <div className="registration-container">
-      <h2>Create an Account</h2>
+      <h2>Register For Newsletter</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="Fname">First Name:</label>
         <input type="text" id="Fname" name="Fname" required onChange={handleChange} />

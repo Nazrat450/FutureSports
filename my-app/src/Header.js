@@ -13,20 +13,7 @@ const Header = () => {
     <header>
       <nav>
         <Navigation />
-        
-        <button id="loginBtn">Login</button>
-        <div id="loginModal" className="modal">
-          <div className="modal-content">
-            <span className="close">&times;</span>
-            <h2>Player/Coach Login</h2>
-            <form>
-              <input type="text" placeholder="Username" />
-              <input type="password" placeholder="Password" />
-              <button type="submit">Login</button>
-            </form>
-            <script src="login.js"></script>
-          </div>
-        </div>
+     
       </nav>
       <div className="header-logo">
         <img src= {Logo} alt="FutureSports Logo" />
