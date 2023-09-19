@@ -6,6 +6,8 @@ import Footer from './Footer';
 import PlayerSection from './Players';
 import NewsContent from './New';
 import RegistrationForm from './Register';
+import ScrollToTopButton from './ScrollToTop';
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      <ScrollToTopButton />
       <Schedule />
       <div id="PlayerSection">
       <PlayerSection />
